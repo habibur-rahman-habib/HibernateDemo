@@ -16,5 +16,7 @@
 			<property name="show_sql">true</property>
 			
 			<mapping class="com.habib.entity.Student"/>
+			<mapping class="com.habib.entity.Address"/>
+			
 	</session-factory>
 </hibernate-configuration>
