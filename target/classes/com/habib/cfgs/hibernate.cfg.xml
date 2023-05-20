@@ -15,8 +15,8 @@
 			<property name="hbm2ddl.auto">create</property>
 			<property name="show_sql">true</property>
 			
-			<mapping class="com.habib.entity.Student"/>
-			<mapping class="com.habib.entity.Address"/>
+			<mapping class="com.map.Question"/>
+			<mapping class="com.map.Answer"/>
 			
 	</session-factory>
 </hibernate-configuration>
