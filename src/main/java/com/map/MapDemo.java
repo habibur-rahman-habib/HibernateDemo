@@ -54,8 +54,8 @@ public class MapDemo {
 		tx.commit();
 		
 		// fetching...........
-		Answer newQ = session.get(Answer.class, 41);
-		System.out.println(newQ.getQuestion().getAnswers());
+		Question newQ = session.get(Question.class, 44);
+		System.out.println(newQ.getQuestion());
 		
 		session.close();
 		factory.close();
